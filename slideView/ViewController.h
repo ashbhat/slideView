@@ -8,6 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController{
 
+}
+@property (weak, nonatomic) IBOutlet UIView *topLayer;
+@property (nonatomic) CGFloat layerPosition;
 @end
